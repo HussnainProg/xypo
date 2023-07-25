@@ -1,0 +1,249 @@
+.social-icons{
+    position: fixed;
+    top: 165px;
+    left: -30px;
+}
+.social-icons ul li{
+    list-style: none;
+    /* display: inline-block; */
+    padding: 15px 0px;
+}
+.social-icons ul li a{
+    text-decoration: none;
+}
+.social-icons ul li a i.fa-brands{
+          font-size: 30px;
+          color:black;
+          transition: color;
+          transition-duration: 1s;
+          transition-timing-function: ease-in-out;
+}
+.social-icons ul li a i.fa-brands:hover{
+       color:#ff7675;
+}
+
+#bg-image{
+    background-image: url('images/background.png') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.menu{
+    /* background-color:hsl(0, 100%, 73%,0.5); */
+    width: 100%;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding:10px 30px;
+    margin: 0px 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius:30% ;
+    /* border: 2px solid black; */
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: palevioletred;
+    transition: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+.menu ul li a:hover{
+    color:  white;
+}
+
+.menu-item{
+    /* background-color: white; */
+    background-color:hsl(0, 100%, 73%,0.5);
+    /* border-radius: 0%; */
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+    
+.menu-item:hover{
+    background-color: #487eb0;
+    background-color:  palevioletred;
+    /* border-radius: 20%; */
+
+}
+
+
+
+.bord{
+    border: 2px solid palevioletred;
+}
+/* .container{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+} */
+.header{
+    /* border: 2px solid red; */
+    /* padding-top: 30px */
+       /* background-color: azure; */
+       top: 10px;
+       position:fixed;
+
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box i.fa-solid{
+    
+    color: #ff8080;
+    background-color: #ff8080;
+    font-size:small;
+    
+   
+}
+.box1 i.fa-solid{
+    box-sizing: border-box;
+    margin-bottom:10px;
+    font-size:xx-large;
+    color:#7f8fa6;
+    /* display: inline; */
+}
+.session{
+    padding-top:90px;
+    padding-bottom:50px ;
+}
+.read a{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid pink;
+    padding: 15px;
+    color: black;
+}
+
+p.content{
+    color: slategray;
+    text-align: justify;
+}
+
+
+/*  styling of about */
+.common{
+    padding-top:50px ;
+
+}
+.about-img{
+    background: url('images/about.png') no-repeat;
+    background-size: contain; 
+    background-size: 45%;   
+
+}
+.about-content{
+    text-align: right;
+} 
+.about-content p{
+    text-align: justify;
+    color:slategray;
+    font-size:14px;
+}
+.about-content h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    text-align: left;
+    
+}
+.about-content h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    color:slategray;
+    
+}
+/* styling of Features Section */
+.feature-box{
+    text-align: center;
+}
+.feature-box p{
+    color:slategray;
+    /* font-size: small; */
+}
+.feature-trial{
+    text-align: center;
+    display: inline;
+    /* margin-left:100px ; */
+    /* margin-top: 270px; */
+    margin-bottom: 20px;
+}
+.feature-trial a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border:  2px solid palevioletred;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+}
+/* Styling of Courses section */
+.course-content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+.course-content p{
+     color:slategray;
+}
+.a-course{
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.course-content a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid palevioletred;
+}
+/* styling of offer section */
+.offer-content{
+    text-align: right;
+}
+.offer-content h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.offer-content p{
+    color:slategray;
+    text-align: justify;
+}
+.a-offer{
+    margin-top: 30px;
+    margin-right:50px;
+    margin-bottom: 35px;
+}
+.offer-content a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid palevioletred;
+    box-sizing: border-box;
+    padding: 15px;
+}
+/* styling of contact section */
+.contact-content h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    /* font-size: xx-large; */
+    font-weight: bolder;
+}
+.button{
+    margin-left: 100px;
+
+}
+hr{
+    background-color: palevioletred;
+}
+/* footer */
+.footer{
+    background-color: 	rgb(255,118,117,0.9);
+}
+
+.footer p{
+    color: white;
+    font-weight: lighter;
+}
+p:target{
+
+}
